@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="tophead">
+<a class="active" href="#">Home</a>
+<body>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <div class="text">
+<div class="Heading">
+Live Healthy
+</div>
+<div class="paragraph">
+Living healthily should be practiced by everyone, and to make this feat just a little bit easier, let our software plan your exercise and diet plans. If you wish to continue, please press the button below.
+</div>
+    </div>
+</body>
+</head>
+<!-- <div class="heading1"><p>Please Enter the Following Information</p></div> -->
+     <div class="formbody">
+       <form onsubmit="return MyFunction()" method="post" action="form.php">
+         <p class="heading1">Please Enter the Following Information</p>
+         <p class="age1">Age:</p>
+         <input class="age" type="text" name="age" id="age"><br>
+       <p class="weight1">Weight:</p>
+         <input class="weight" type="text" name="weight" id="weight"><br>
+       <p class="height1">Height:</p>
+       <input class="height" type="text" name="height" id="height"><br>
+       <p class="gender1">Gender:</p>
+       <input class="gender" type="text" name="gender" id="gender"><br>
+       <p class="exercise">Exercise Preference:</p>
+       <select class="option" name="exercisepreference"id="exercisepreference">
+       <option disabled="disabled" selected="selected"></option>
+       <option>Upper Body</option>
+       <option>Core</option>
+       <option>Lower Body</option>
+       </select>
+         <p class="equipmentlabel">Do you have weights and other equipment?</p>
+      <select class="equipment" name="Do you have weights and other equipment?" id="equipment">
+        <option disabled="disabled" selected="selected">
+        </option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+         <p class="intensity">Do you prefer high or low intensity workouts?</p>
+         <select class="intensity1" name="intensity1" id="intensity1">
+           <option disabled="disabled" selected="selected">
+           </option>
+           <option>High</option>
+           <option>Low</option>
+         </select>
+       <input type="submit" id="submit" value="Submit" class="submit">
+     </form>
+       <div>
+    <p id='result'></p></div>
+     </div>
+    <script src="script.js"></script>
+  </body>
+</html>
